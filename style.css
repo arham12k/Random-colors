@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  padding: 1rem 2rem;
+  background-color: steelblue;
+  color: white;
+  border-radius: 20px;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn-animation {
+  scale: 0.9;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
